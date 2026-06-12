@@ -12,7 +12,9 @@ function showMap(latitude, longitude){
     maxZoom: 18,
     attribution: "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>"
   }).addTo(map);
-  let market = L.market(location).addTo(map);
+
+  let marker = L.marker(location).addTo(map);
+
 }
 function card( market ){ 
 

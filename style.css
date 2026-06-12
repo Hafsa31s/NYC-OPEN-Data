@@ -402,3 +402,16 @@ nav a:hover{
   border-radius:10px;
   box-shadow:2px 2px 2px black;
 }
+.map{
+  display:flex;
+  padding:10px;
+  flex-wrap:wrap;
+}
+ #cards_output{
+   flex:1;
+   max-height:600px;;
+   overflow-y:scroll;
+ }
+ .button:hover{
+  background-color:cornflowerblue;
+}
