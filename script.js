@@ -30,9 +30,9 @@ function filterByBorough() {
     let ct = 0;
 
     for(let i = 0; i < data.length; i+=1){
-        let borough = data[i];
+        let market = data[i];
  console.log(market.borough + " " + user_borough.value )
-        if (market.borough == user_borough){
+        if (market.borough == user_borough.value){
             build += `<div class="fitted card">
                     <h3>${market.marketname}</h3>
                     <hr>
